@@ -31,6 +31,10 @@ class MyDrawer extends StatelessWidget {
             title: Text("Profile"),
           ),
           ListTile(
+            leading: Icon(CupertinoIcons.phone),
+            title: Text("Contact"),
+          ),
+          ListTile(
             leading: Icon(CupertinoIcons.settings),
             title: Text("Settings"),
           ),
