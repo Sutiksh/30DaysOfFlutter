@@ -5,7 +5,7 @@ class CatalogModel {
       name: "Iphone 12",
       description: "A phone",
       price: 999,
-      image: "",
+      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-r1.jpg",
     )
   ];
 }
