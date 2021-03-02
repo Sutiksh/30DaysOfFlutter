@@ -7,7 +7,7 @@ class CatalogHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        "Catalog App".text.xl4.bold.color(MyTheme.darkBluishColor).make(),
+        "Catalog App".text.xl4.bold.color(context.accentColor).make(),
         "Trending Products".text.xl2.make(),
       ],
     );

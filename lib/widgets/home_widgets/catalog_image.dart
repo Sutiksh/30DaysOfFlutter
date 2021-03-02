@@ -10,6 +10,6 @@ class CatalogImage extends StatelessWidget {
         super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Image.network(image).box.p16.color(MyTheme.creamColor).make().p16();
+    return Image.network(image).box.p16.color(context.canvasColor).make().p16();
   }
 }
